@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Swift-tips
 //
-//  Created by 長谷川瞬哉 on 2016/02/16.
-//  Copyright © 2016年 長谷川瞬哉. All rights reserved.
+//  Created by hase on 2016/02/16.
+//  Copyright © 2016年 hase. All rights reserved.
 //
 
 import UIKit
