@@ -5,6 +5,13 @@
 //  Created by hmhm on 2016/02/16.
 //  Copyright © 2016年 hmhm. All rights reserved.
 //
+//  Usage
+//  フェードイン
+//  完了タイミングで何かしたい場合はクロージャーも記述
+//  FadeView.fadeIn(type: .Slow) { [weak self] in
+//      println("FadeIn 完了")
+//  }
+//
 
 import Foundation
 import UIKit
