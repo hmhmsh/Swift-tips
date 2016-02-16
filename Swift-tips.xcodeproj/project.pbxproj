@@ -12,8 +12,6 @@
 		4DD9EB3F1C7314E9000C3414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9EB3D1C7314E9000C3414 /* Main.storyboard */; };
 		4DD9EB411C7314E9000C3414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9EB401C7314E9000C3414 /* Assets.xcassets */; };
 		4DD9EB441C7314E9000C3414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9EB421C7314E9000C3414 /* LaunchScreen.storyboard */; };
-		4DD9EB4F1C7314E9000C3414 /* Swift_tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9EB4E1C7314E9000C3414 /* Swift_tipsTests.swift */; };
-		4DD9EB5A1C7314E9000C3414 /* Swift_tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9EB591C7314E9000C3414 /* Swift_tipsUITests.swift */; };
 		4DD9EB731C731C3F000C3414 /* Animation-FadeInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9EB701C731C3F000C3414 /* Animation-FadeInOut.swift */; };
 		4DD9EB741C731C3F000C3414 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9EB711C731C3F000C3414 /* Color.swift */; };
 		4DD9EB751C731C3F000C3414 /* MotionShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9EB721C731C3F000C3414 /* MotionShake.swift */; };
@@ -45,11 +43,7 @@
 		4DD9EB431C7314E9000C3414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DD9EB451C7314E9000C3414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD9EB4A1C7314E9000C3414 /* Swift-tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-tipsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DD9EB4E1C7314E9000C3414 /* Swift_tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_tipsTests.swift; sourceTree = "<group>"; };
-		4DD9EB501C7314E9000C3414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD9EB551C7314E9000C3414 /* Swift-tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-tipsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DD9EB591C7314E9000C3414 /* Swift_tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_tipsUITests.swift; sourceTree = "<group>"; };
-		4DD9EB5B1C7314E9000C3414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD9EB701C731C3F000C3414 /* Animation-FadeInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Animation-FadeInOut.swift"; path = "Sources/Animation-FadeInOut.swift"; sourceTree = "<group>"; };
 		4DD9EB711C731C3F000C3414 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Sources/Color.swift; sourceTree = "<group>"; };
 		4DD9EB721C731C3F000C3414 /* MotionShake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionShake.swift; path = Sources/MotionShake.swift; sourceTree = "<group>"; };
@@ -85,8 +79,6 @@
 			children = (
 				4DD9EB671C731534000C3414 /* Sources */,
 				4DD9EB381C7314E9000C3414 /* Swift-tips */,
-				4DD9EB4D1C7314E9000C3414 /* Swift-tipsTests */,
-				4DD9EB581C7314E9000C3414 /* Swift-tipsUITests */,
 				4DD9EB371C7314E9000C3414 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,24 +104,6 @@
 				4DD9EB451C7314E9000C3414 /* Info.plist */,
 			);
 			path = "Swift-tips";
-			sourceTree = "<group>";
-		};
-		4DD9EB4D1C7314E9000C3414 /* Swift-tipsTests */ = {
-			isa = PBXGroup;
-			children = (
-				4DD9EB4E1C7314E9000C3414 /* Swift_tipsTests.swift */,
-				4DD9EB501C7314E9000C3414 /* Info.plist */,
-			);
-			path = "Swift-tipsTests";
-			sourceTree = "<group>";
-		};
-		4DD9EB581C7314E9000C3414 /* Swift-tipsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4DD9EB591C7314E9000C3414 /* Swift_tipsUITests.swift */,
-				4DD9EB5B1C7314E9000C3414 /* Info.plist */,
-			);
-			path = "Swift-tipsUITests";
 			sourceTree = "<group>";
 		};
 		4DD9EB671C731534000C3414 /* Sources */ = {
@@ -285,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD9EB4F1C7314E9000C3414 /* Swift_tipsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD9EB5A1C7314E9000C3414 /* Swift_tipsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
